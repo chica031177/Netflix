@@ -1,0 +1,123 @@
+nav{
+  background: black;
+  padding: 15px;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+}
+
+.button{
+  background: #e50914;
+  color: white;
+  border-width: 0;
+  padding: 5px 25px;
+  transition: all .2s;
+}
+
+.button:hover{
+  background: #b6020b;
+  cursor: pointer;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('img/bg.jpg');
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+  position: relative;
+}
+
+header * {
+  z-index: 1;
+}
+
+header h1{
+  font-size: 72px;
+}
+
+header h6{
+  font-size: 28px;
+}
+
+.filter{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  z-index: 0;
+}
+
+.button.button-big{
+  padding: 10px 35px
+}
+
+.button.button-long{
+  padding: 5px 25px;
+}
+
+main .section1 p{
+  color: white;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.section1, .section2 {
+  padding: 50px 0;
+}
+
+.section1{
+  background: black;
+}
+
+.section2{
+  background: #111;
+}
+
+h3{
+  font-size: 32px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.section2 h4{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section2 p{
+  color: white;
+  font-size: 24px;
+  opacity: .5;
+}
+
+.section2 img{
+  margin-bottom: 10px;
+}
+
+footer{
+  background: black;
+  padding: 20px 0;
+}
+
+footer a{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-right: 40px;
+  transition: all .2s;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+  opacity: .5;
+}
